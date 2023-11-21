@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: Times, serif;
+  font-family: "Times New Roman";
   color: white;
-  background-color: black;
+  background-color: rgb(2, 34, 59, 1);
 }
 
 .container {
@@ -56,6 +56,7 @@ header > .title {
   margin-bottom: 1rem;
   font-size: 3rem;
   line-height: 1.2;
+  text-align: center;
 }
 .bio > p {
   font-size: 1.2rem;
