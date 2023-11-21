@@ -3,6 +3,8 @@ The Nobel Prize in Chemistry 2015
 
 Born: 8 September 1946, Savur, Turkey
 
+<img src="./Aziz Sancar.jpeg" />
+
 Affiliation at the time of the award: University of North Carolina, Chapel Hill, NC, USA
 
 Prize motivation: “for mechanistic studies of DNA repair”
