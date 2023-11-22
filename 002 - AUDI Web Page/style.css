@@ -13,3 +13,25 @@ div {
   text-align: left;
   font-size: 10px;
 }
+
+h6 {
+  font-size: 15px;
+  margin: 10px 40px;
+}
+
+p {
+  margin: 10px 40px;
+}
+
+p span {
+  background-color: rgb(184, 184, 184);
+  font-size: 1rem;
+}
+
+blockquote {
+  font-size: 11px;
+}
+
+blockquote span {
+  font-size: 15px;
+}
