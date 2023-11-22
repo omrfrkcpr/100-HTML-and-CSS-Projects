@@ -1,0 +1,15 @@
+body {
+  font-family: "AudiType,sans-serif";
+  color: black;
+  font-size: 12px;
+}
+
+.header {
+  font-size: 12px;
+  text-align: left;
+}
+
+div {
+  text-align: left;
+  font-size: 10px;
+}
