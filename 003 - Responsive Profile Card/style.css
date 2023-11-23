@@ -142,3 +142,33 @@ body {
 .data:last-child {
   border-right: none;
 }
+
+.profile-card .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--second-bg-color);
+}
+
+.profile-card .footer-text p {
+  font-size: 5px;
+}
+.profile-card .footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: var(--main-color);
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
+}
+
+.profile-card .footer-iconTop a {
+  box-shadow: 0 0 1rem var(--main-color);
+}
+.profile-card .footer-iconTop a i {
+  font-size: 2.4rem;
+  color: var(--second-bg-color);
+}
