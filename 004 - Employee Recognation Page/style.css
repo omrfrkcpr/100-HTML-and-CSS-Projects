@@ -1,0 +1,17 @@
+.container {
+  background-color: beige;
+  width: 400px;
+}
+
+.header {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  padding: 10px;
+}
+form {
+  padding: 10px;
+}
