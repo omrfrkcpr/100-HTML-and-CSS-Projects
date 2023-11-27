@@ -189,3 +189,33 @@ label:hover {
   position: absolute;
   transition: 0s;
 }
+
+.container .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--second-bg-color);
+}
+
+.container .footer-text p {
+  font-size: 10px;
+}
+.container .footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: var(--main-color);
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
+}
+
+.container .footer-iconTop a {
+  box-shadow: 0 0 1rem var(--main-color);
+}
+.container .footer-iconTop a i {
+  font-size: 2.4rem;
+  color: var(--second-bg-color);
+}
