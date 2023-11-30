@@ -4,49 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Survey Form</title>
+    <title>Netflix Survey Form</title>
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <h1 id="title">NET<span>FLIX</span></h1>
         <h3 id="description">
-          Thank you for signing up to Netflix. Tell us more about yourself
+          Thank you for signing up to Netflix.Tell me more about yourself.
         </h3>
       </header>
 
       <main id="survey-form-container">
         <form action="result.html" method="get">
           <div class="input-box">
-            <label for="name">Name</label><br />
+            <label for="name">Name</label>
+            <br />
             <input
               type="text"
               name="name"
               id="name"
-              placeholder="Please enter your name"
-              required
+              placeholder="enter your Name"
             />
           </div>
           <div class="input-box">
-            <label for="age">Age</label><br />
-            <input type="number" name="age" id="age" placeholder="Age" />
+            <label for="">Age</label>
+            <br />
+            <input type="number" name="number" id="number" placeholder="age" />
           </div>
           <div class="input-box">
-            <label for="email">Email</label><br />
+            <label for="email">Email</label>
+            <br />
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Please enter your email"
-              required
+              placeholder="enter your Email"
             />
           </div>
-          <div class="imput-box">
-            <label for="">Content Type</label><br />
+          <div class="input-box">
+            <label for="">Content Type</label>
+            <br />
             <select name="content" id="dropdown">
+              <option value="movie">Movie</option>
               <option value="series">Series</option>
-              <option value="movie">Movies</option>
+              <option value="Romance">Romance</option>
             </select>
+          </div>
+          <div class="input-box">
+            <label for="">Movie type</label><br />
+            <input type="checkbox" name="movie1" id="first-check" />
+            <label for="">Comedy</label>
           </div>
         </form>
       </main>
