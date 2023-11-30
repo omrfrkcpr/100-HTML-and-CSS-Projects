@@ -75,7 +75,32 @@
             <label for="third-check">Romance</label>
           </div>
 
-          <input type="submit" value="Send" />
+          <div class="input-box">
+            <label for="">Gender</label><br />
+            <input type="radio" name="gender" id="first-radio" value="Male" />
+            <label for="first-radio">Male</label><br />
+            <input
+              type="radio"
+              name="gender"
+              id="second-radio"
+              value="Female"
+            />
+            <label for="second-radio">Female</label><br />
+            <input type="radio" name="gender" id="third-radio" value="Other" />
+            <label for="third-radio">Other</label><br />
+          </div>
+          <div class="input-box">
+            <label for="feedback">Feed Back</label><br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              required
+              placeholder="Any comment"
+            ></textarea>
+          </div>
+          <div class="form-submit">
+            <input type="submit" class="form-button" value="Send" />
+          </div>
         </form>
       </main>
     </div>
