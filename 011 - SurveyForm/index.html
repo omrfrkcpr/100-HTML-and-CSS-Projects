@@ -16,7 +16,7 @@
       </header>
 
       <main id="survey-form-container">
-        <form action="result.html" method="get">
+        <form action="result.html" method="get" target="_blank">
           <div class="input-box">
             <label for="name">Name</label>
             <br />
@@ -48,14 +48,34 @@
             <select name="content" id="dropdown">
               <option value="movie">Movie</option>
               <option value="series">Series</option>
-              <option value="Romance">Romance</option>
             </select>
           </div>
           <div class="input-box">
             <label for="">Movie type</label><br />
-            <input type="checkbox" name="movie1" id="first-check" />
-            <label for="">Comedy</label>
+            <input
+              type="checkbox"
+              name="MovieType"
+              id="first-check"
+              value="Comedy"
+            />
+            <label for="first-check">Comedy</label><br />
+            <input
+              type="checkbox"
+              name="MovieType"
+              id="second-check"
+              value="Action"
+            />
+            <label for="second-check">Action</label><br />
+            <input
+              type="checkbox"
+              name="MovieType"
+              id="third-check"
+              value="Romance"
+            />
+            <label for="third-check">Romance</label>
           </div>
+
+          <input type="submit" value="Send" />
         </form>
       </main>
     </div>
