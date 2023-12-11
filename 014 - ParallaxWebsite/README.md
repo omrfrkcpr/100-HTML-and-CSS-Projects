@@ -15,9 +15,16 @@ Project aims to create parallax website.
 |
 |----readme.md
 |----img
+    |----bg.jpg
+    |----bg1.jpg
+    |----bg2.jpg
+    |----bg3.jpg
+    |----bg4.jpg
+    |----it-logo.png
 |----Project.gif
 |----index.html
 |----style.css
+|----LICENSE
 ```
 
 ## Expected Outcome
@@ -25,8 +32,6 @@ Project aims to create parallax website.
 ![Project Snapshot](./Project.gif)
 
 ## Objective
-
-Build a Landing that is functionally similar to this: [Project Live Example](https://mark-mad.github.io/parallax-website/)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -43,9 +48,5 @@ Build a Landing that is functionally similar to this: [Project Live Example](htt
 - improve coding skills within HTML & CSS
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Resources
-
-- [Images](./img)
 
 <p align="center"> <strong>⌛ Happy Coding  ✍ </strong> </p>
