@@ -21,15 +21,13 @@ Project aims to create parallax website.
     |----bg3.jpg
     |----bg4.jpg
     |----it-logo.png
-|----Project.gif
+|----parallax.gif
 |----index.html
 |----style.css
 |----LICENSE
 ```
 
 ## Expected Outcome
-
-![Project Snapshot](./Project.gif)
 
 ## Objective
 
