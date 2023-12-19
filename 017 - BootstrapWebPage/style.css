@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Public+Sans:wght@300;400;600&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  /* font-family */
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-sans: "Public Sans", sans-serif;
+
+  /* color */
+  --navbar-bg-color: #212529;
+  --navbar-text-color: #c7c8c9;
+  --logo-color: #fff;
+  --banner-text-color: #800080;
+  --banner-text-bg-color: #d44c5a;
+  --banner-text-bg-hover-color: #dc3545;
+  --portfolio-bg-color: #f8f9fa;
+}
+
+/* ---------------------------------- */
+/*               NAVBAR               */
+/* ---------------------------------- */
+
+nav .container-fluid {
+  background-color: var(--navbar-bg-color) !important;
+}
+
+nav ul .nav-item a {
+  color: var(--navbar-text-color);
+  font-size: 1rem;
+}
+
+nav ul .nav-item a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* ---------------------------------- */
+/*               BANNER               */
+/* ---------------------------------- */
+
+#banner .banner-container {
+  position: relative;
+}
+
+#banner .bannerInfo {
+  position: absolute;
+  top: 26%;
+  right: -3%;
+}
+
+#banner .bannerInfo h4,
+#banner .bannerInfo h3 {
+  color: #800080;
+}
+
+#banner .bannerInfo button {
+  background-color: var(--banner-text-bg-color);
+  color: white;
+  margin-top: 8px;
+  padding: 8px 16px;
+}
+
+#banner .bannerInfo button:hover {
+  background-color: var(--banner-text-bg-hover-color);
+}
+
+/* ---------------------------------- */
+/*              SERVICES              */
+/* ---------------------------------- */
+
+#services span {
+  background-color: var(--banner-text-bg-color);
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: auto;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+}
+
+#services span i {
+  position: relative;
+  top: 25%;
+  right: 0;
+}
+
+/* ---------------------------------- */
+/*              PORTFOLIO             */
+/* ---------------------------------- */
+
+#portfolio {
+  background-color: var(--portfolio-bg-color);
+}
+
+/* ---------------------------------- */
+/*              ABOUT US              */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/*              OUT TEAM              */
+/* ---------------------------------- */
+
+#staff {
+  background-color: var(--portfolio-bg-color);
+}
+
+#staff img {
+  border: 6px solid lightgray;
+  border-radius: 50%;
+}
+
+#staff a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: var(--navbar-bg-color);
+  border-radius: 50%;
+  position: relative;
+}
+
+#staff a i {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+
+#staff a:hover {
+  opacity: 0.7;
+}
+
+/* ---------------------------------- */
+/*              SPONSERS              */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/*               CONTACT              */
+/* ---------------------------------- */
+
+#contact {
+  background-image: url(assets/map.jpeg);
+}
+
+#contact .btn button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--banner-text-bg-color);
+  color: white;
+}
+
+#contact .btn button:hover {
+  background-color: var(--banner-text-bg-hover-color);
+}
+
+/* ---------------------------------- */
+/*               FOOTER               */
+/* ---------------------------------- */
