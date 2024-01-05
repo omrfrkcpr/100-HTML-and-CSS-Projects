@@ -4,4 +4,31 @@
   box-sizing: border-box;
 }
 
+.nav {
+  border: 2px solid red;
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.nav__link:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.nav__link--active {
+  color: #ff652f;
+}
+
 /*# sourceMappingURL=main.css.map */
