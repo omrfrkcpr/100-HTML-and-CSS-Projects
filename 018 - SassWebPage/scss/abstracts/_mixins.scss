@@ -2,6 +2,8 @@
 //*               MIXINS               */
 //* ---------------------------------- */
 
+//! @mixin i main e degil de direk sayfaya atarsak; o sayfaya ilk once @mixin i import ediyoruz. Daha sonra @include kullandiktan sonra mixin.{className} yazarak cekebiliriz!!!
+
 @mixin transition($sec) {
   transition: all $sec;
 }

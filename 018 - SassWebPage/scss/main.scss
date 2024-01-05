@@ -1,3 +1,9 @@
+//* ---------------------------------- */
+//*              MAIN.SCSS             */
+//* ---------------------------------- */
+
+//! @import yerine @use da kullanabiliriz. @import ile kullanirken, yanyana yazabiliriz ancak @import ta tum dosyalarin hepsini import ederken, @use da tek tek yazmamiz lazim dosyalari yani yan yana degil. @use, @import tan farkli olarak sadece degisen dosyalari kaydederek performansta iyilestirme yapar. Buyuk projelerde kesinlikle!!!
+
 //*abstract
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
