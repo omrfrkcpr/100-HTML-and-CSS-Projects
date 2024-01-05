@@ -39,6 +39,26 @@
   background-position: center;
 }
 
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home__name {
+  font-size: 5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+.home__name--last {
+  color: red;
+  font-weight: 700;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
