@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+.link-style a, footer.horizontal a {
+  padding: 0.4rem;
+  transition: all 1s;
+}
+.link-style a:hover, footer.horizontal a:hover {
+  color: #ff652f;
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
 .nav {
   height: 10vh;
   padding: 1rem;
